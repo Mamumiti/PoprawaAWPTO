@@ -11,16 +11,16 @@ public class CurrencyTest
 	
 	@Before
 	public void setup(){
-		 c = new Currency("USD",2);
+		 c = new Currency("USD", 2);
 	}
 	
 	@Test
 	public void convertFromPlnTest() {
-		assertEquals(10,c.convertFromPLN(20));
+		assertEquals(10, c.convertFromPLN(20), Double.MIN_VALUE);
 	}
 	
 	@Test
 	public void convertToPlnTest() {
-		assertEquals(10,c.convertToPLN(5));
+		assertEquals(10, c.convertToPLN(5), Double.MIN_VALUE);
 	}
 }
