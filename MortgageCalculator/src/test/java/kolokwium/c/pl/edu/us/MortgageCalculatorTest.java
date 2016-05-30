@@ -36,7 +36,7 @@ public class MortgageCalculatorTest
 	@Test
 	public void numberOfInstallmentsTest() {
 		fail("Not yet implemented");
-	}
+	} 
 	
 	@Test
 	public void valueOfFirstInstallmentsTest() {
